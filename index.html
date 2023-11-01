@@ -3,10 +3,408 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="resources/js/main.js" ></script>    
+    <script src="resources/js/main.js" ></script>  
+    <link rel="stylesheet" href="resources/css/main.css">
+    <title>Treinamento</title>
 </head>
 <body>
+    <div class="header">       
+        <h1>Treinamento</h1>
+    </div>
+    <div class="main">
+        <div class="logo">
+            <p><img src="https://i.pinimg.com/originals/35/ce/9f/35ce9f85da291b4c1c504d8cbd37e8ee.gif" alt="logo formulário" width="100px"></p>
+            <h2>Formulário</h2>
+        </div>    
+        
+        <form method="post">
+            <label for="idade">Nome:</label>
+            <input type="text" id="nome" name="nome">
+            
+            <label for="salario">Idade</label>
+            <input type="text" id="idade" name="idade">
+            
+            <label for="nome">Salario:</label>
+            <input type="text" id="salario" name="salario">        
+            
+            <button type="button">Enviar</button>
+        </form>
+    </div>        
+    <div class="rodape">
+        <p>Créditos:</p>
+        Gabriella <br>
+        Giovanna <br>
+        Viviane</p>
+    </div>
     
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+document.querySelector("button").addEventListener('click', (e)=>{
+    e.target.style.cursor = "wait";
+});
+
+document.addEventListener('mouseover', (e) => {
+    if(e.target.tagName == "H1"){
+        alert("BEN VINDO!!!");
+        e.target.style.cursor = "pointer";
+    }else{
+        e.target.style.cursor = "default";
+    }
+
+    if(e.target.tagName == "BUTTON"){
+    }
+});
+</script>
