@@ -1,3 +1,77 @@
 /**
 O código css foi apagado :/
 **/
+body{
+    font-family: Helvetica;
+    margin: 0;
+    
+
+    
+}
+
+.header{
+    background-color: #FDFF8B;
+    border: 15px solid rgb(219, 214, 214);
+
+}
+
+h2, .logo p{
+    display: inline-block;
+
+}
+
+
+img{
+    border-top: 8px solid #9694FF;
+    border-left: 8px solid #FF9F0F;
+    border-right: 8px solid #EA6CFF;
+    border-bottom: 8px solid#FDFF8B;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row; /* row é padrão */
+    justify-content: center;
+
+    
+}
+
+
+.main{
+    color: white;
+    background-color: #986D9D;
+    
+
+}
+
+form{
+    max-width: 350px;
+    height:580px;
+    flex-direction: row; /* row é padrão */
+    
+    margin: 0 auto;
+
+    
+}
+
+label{
+    display: block;
+    width: 200px;
+}
+
+input, button{
+    border-radius: 10px;
+    border: white;
+}
+
+.rodape, .header{
+    text-align: center;
+    font-size: larger;
+    
+}
+
+
+
+#nome, #idade, #salario{
+    text-align: justify;
+}
